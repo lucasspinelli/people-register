@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro de Pessoas", "Cadastro de Pessoas.csproj", "{16874F4B-795D-4DBA-A4F3-EE25FDC1344E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16874F4B-795D-4DBA-A4F3-EE25FDC1344E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16874F4B-795D-4DBA-A4F3-EE25FDC1344E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16874F4B-795D-4DBA-A4F3-EE25FDC1344E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16874F4B-795D-4DBA-A4F3-EE25FDC1344E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EC2F70A-890D-455F-95D3-16C55BE940A0}
+	EndGlobalSection
+EndGlobal
