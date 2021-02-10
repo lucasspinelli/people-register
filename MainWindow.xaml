@@ -11,10 +11,10 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal">
-            <Button Margin="3" Padding="3" Content="Novo"/>
-            <Button Margin="3" Padding="3" Content="Editar"/>
-            <Button Margin="3" Padding="3" Content="Deletar"/>
+        <StackPanel Orientation="Horizontal" Height="42" VerticalAlignment="Bottom">
+            <Button Margin="3" Padding="3" Background="#32CD32" BorderBrush="Black" Content="Novo" FontWeight="Bold" Width="83"/>
+            <Button Margin="3" Padding="3" Background="#FFA500" BorderBrush="Black" Content="Editar" FontWeight="Bold" Width="58"/>
+            <Button Margin="3" Padding="3" Background="#FF6347" BorderBrush="Black" Content="Deletar" FontWeight="Bold" Width="58"/>
         </StackPanel>
         <ScrollViewer Grid.Row="1"
                       HorizontalScrollBarVisibility="Visible"
