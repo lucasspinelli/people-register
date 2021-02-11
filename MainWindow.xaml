@@ -28,7 +28,14 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Margin="3" Padding="3" BorderBrush="Black" Content="Deletar" Width="58" FontFamily="Verdana">
+            <Button Margin="3"
+                    Padding="3"
+                    BorderBrush="Black"
+                    Content="Deletar"
+                    Width="58"
+                    FontFamily="Verdana"
+                    CommandParameter="{Binding}"
+                    Command="{Binding Delete}">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FFBDBCBC" Offset="0"/>

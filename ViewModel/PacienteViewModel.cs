@@ -10,6 +10,7 @@ namespace Cadastro_de_Pessoas.ViewModel
     public class PacienteViewModel : BaseNotifyPropertyChanged
     {
         public System.Collections.ObjectModel.ObservableCollection<Model.Paciente> Pacientes { get; private set; }
+        public DeletarCommand Delete { get; private set; } = new DeletarCommand();
 
         private Model.Paciente _selectedPacient; // we use _ when some attribute is private
         public Model.Paciente SelectedPacient
