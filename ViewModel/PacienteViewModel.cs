@@ -19,7 +19,7 @@ namespace Cadastro_de_Pessoas.ViewModel
             set 
             { 
                 SetField(ref _selectedPacient, value);
-                Delete.RaiseCanExecuteChanged(); // Call this method when we delete some pacient, and make the button desativate 
+                Delete.RaiseCanExecuteChanged(); // Call this method when we delete some pacient, and make the button desativate
             }
         }
     
