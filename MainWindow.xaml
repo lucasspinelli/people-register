@@ -5,16 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cadastro_de_Pessoas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Cadastro de Pacientes" Height="450" Width="600">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Height="42" VerticalAlignment="Bottom">
-            <Button Margin="3" Padding="3" Background="#32CD32" BorderBrush="Black" Content="Novo" FontWeight="Bold" Width="83"/>
-            <Button Margin="3" Padding="3" Background="#FFA500" BorderBrush="Black" Content="Editar" FontWeight="Bold" Width="58"/>
-            <Button Margin="3" Padding="3" Background="#FF6347" BorderBrush="Black" Content="Deletar" FontWeight="Bold" Width="58"/>
+            <Button Margin="3" Padding="3" BorderBrush="Black" Content="Novo" Width="83" FontFamily="Verdana">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFD3D4D3" Offset="0"/>
+                        <GradientStop Color="LimeGreen" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Margin="3" Padding="3" BorderBrush="Black" Content="Editar" Width="58" FontFamily="Verdana">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFD1D0CF" Offset="0"/>
+                        <GradientStop Color="Orange" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Margin="3" Padding="3" BorderBrush="Black" Content="Deletar" Width="58" FontFamily="Verdana">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFBDBCBC" Offset="0"/>
+                        <GradientStop Color="Tomato" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
         </StackPanel>
         <ScrollViewer Grid.Row="1"
                       HorizontalScrollBarVisibility="Visible"

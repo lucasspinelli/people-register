@@ -25,5 +25,10 @@ namespace Cadastro_de_Pessoas
             InitializeComponent();
             DataContext = new ViewModel.PacienteViewModel(); // linking our view with our view model LoL
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
