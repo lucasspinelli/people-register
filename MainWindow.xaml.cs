@@ -23,6 +23,7 @@ namespace Cadastro_de_Pessoas
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new ViewModel.PacienteViewModel(); // linking our view with our view model LoL
         }
     }
 }

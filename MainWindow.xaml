@@ -20,15 +20,17 @@
                       HorizontalScrollBarVisibility="Visible"
                       VerticalScrollBarVisibility="Hidden">
             <DataGrid AutoGenerateColumns="False"
-                      IsReadOnly="True">
+                      IsReadOnly="True"
+                      ItemsSource="{Binding Pacientes}"
+                      SelectedItem="{Binding SelectedPacient}">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Id"/>
-                    <DataGridTextColumn Header="Nome"/>
-                    <DataGridTextColumn Header="Sobrenome"/>
-                    <DataGridTextColumn Header="Data Nascimento"/>
-                    <DataGridTextColumn Header="Sexo"/>
-                    <DataGridTextColumn Header="Estado Civil"/>
-                    <DataGridTextColumn Header="Data Admissão"/>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                    <DataGridTextColumn Header="Nome" Binding="{Binding name}"/>
+                    <DataGridTextColumn Header="Sobrenome" Binding="{Binding lastName}"/>
+                    <DataGridTextColumn Header="Data Nascimento" Binding="{Binding birth, StringFormat=\{0:d\}}"/>
+                    <DataGridTextColumn Header="Sexo" Binding="{Binding sex}"/>
+                    <DataGridTextColumn Header="Estado Civil" Binding="{Binding martial}"/>
+                    <DataGridTextColumn Header="Data do Diagnóstico" Binding="{Binding diagnosisDate, StringFormat=\{0:d\}}"/>
                 </DataGrid.Columns>
             </DataGrid>
         </ScrollViewer>
