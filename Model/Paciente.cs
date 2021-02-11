@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Cadastro_de_Pessoas.Model
 {
-    class Class1
+    class Paciente
     {
+        public int Id { get; set; }
+        public string name { get; set; }
+        public string lastName { get; set; }
+        public DateTime birth { get; set; }
+        public Sexo sex { get; set; }
+        public EstadoCivil martial { get; set; }
+        public DateTime diagnosisDate { get; set; }
     }
 }

@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Cadastro_de_Pessoas.Model
 {
-    public enum Sexo
+    public enum EstadoCivil
     {
-        Masculino, 
-        Feminino,
-        Morango, 
-        Outro, 
+        Casado,
+        Solteiro,
+        Viúvo,
+        Divorciado, 
+        EsperandoMilagre,
+
+
 
     }
 }
