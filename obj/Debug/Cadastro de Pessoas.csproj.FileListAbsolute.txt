@@ -1,11 +1,10 @@
-C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.csprojAssemblyReference.cache
+C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\bin\Debug\Cadastro de Pessoas.exe.config
+C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\bin\Debug\Cadastro de Pessoas.exe
+C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\bin\Debug\Cadastro de Pessoas.pdb
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\MainWindow.g.cs
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\App.g.cs
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas_MarkupCompile.cache
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas_MarkupCompile.lref
-C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\bin\Debug\Cadastro de Pessoas.exe.config
-C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\bin\Debug\Cadastro de Pessoas.exe
-C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\bin\Debug\Cadastro de Pessoas.pdb
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\MainWindow.baml
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.g.resources
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro_de_Pessoas.Properties.Resources.resources
@@ -13,3 +12,4 @@ C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\C
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.csproj.CoreCompileInputs.cache
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.exe
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.pdb
+C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.csprojAssemblyReference.cache

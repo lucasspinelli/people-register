@@ -16,9 +16,13 @@ namespace Cadastro_de_Pessoas.ViewModel
         public Model.Paciente SelectedPacient
         {
             get { return _selectedPacient; }
-            set { SetField(ref _selectedPacient, value); }
+            set 
+            { 
+                SetField(ref _selectedPacient, value);
+                Delete.RaiseCanExecuteChanged(); // Call this method when we delete some pacient, and make the button desativate 
+            }
         }
-
+    
         public PacienteViewModel()
         {
             Pacientes = new System.Collections.ObjectModel.ObservableCollection<Model.Paciente>();
