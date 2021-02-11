@@ -12,9 +12,7 @@ namespace Cadastro_de_Pessoas.Model
         Solteiro,
         Viúvo,
         Divorciado, 
-        EsperandoMilagre,
-
-
+        EsperandoMilagre
 
     }
 }
