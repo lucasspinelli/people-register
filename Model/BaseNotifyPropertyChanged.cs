@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace Cadastro_de_Pessoas.Model
 {
+
+    //https://stackoverflow.com/questions/1315621/implementing-inotifypropertychanged-does-a-better-way-exist
     public abstract class BaseNotifyPropertyChanged : System.ComponentModel.INotifyPropertyChanged // To send some notifys when a property has changed
     {
         public event PropertyChangedEventHandler PropertyChanged;
