@@ -5,8 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cadastro_de_Pessoas"
         mc:Ignorable="d"
-        Title="Paciente" Height="450" Width="800">
+        Title="Paciente" Height="320" Width="300" WindowStyle="ToolWindow">
     <Grid>
-        
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Id"/>
+            <TextBox Text="{Binding Id}" IsEnabled="False"/>
+            <TextBlock Text="Nome"/>
+            <TextBox Text="{Binding name}"/>
+            <TextBlock Text="Sobrenome"/>
+            <TextBox Text="{Binding lastName}"/>
+            <TextBlock Text="Data de Nascimento"/>
+            <DatePicker SelectedDate="{Binding birth}"/>
+            <TextBlock Text="Sexo"/>
+            <ComboBox Name="SexComboBox" Text="{Binding sex}"/>
+            <TextBlock Text="Estado Civil"/>
+            <ComboBox Name="MartialComboBox" Text="{Binding martial}"/>
+            <TextBlock Text="Data do Diagnóstico"/>
+            <DatePicker SelectedDate="{Binding diagnosisDate}"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Button Name="OKButton"
+                        Grid.Column="0"
+                        Content="OK"
+                        Margin="3"
+                        IsDefault="True"
+                        Click="OKButton_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFD3D4D3" Offset="0"/>
+                            <GradientStop Color="LimeGreen" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <Button Grid.Column="1"
+                        Content="Cancelar"
+                        Margin="3"
+                        IsCancel="True">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFBDBCBC" Offset="0"/>
+                            <GradientStop Color="Tomato" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </StackPanel>
     </Grid>
 </Window>

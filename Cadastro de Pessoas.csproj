@@ -56,11 +56,12 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\BaseCommand.cs" />
-    <Compile Include="ViewModel\Commands\DeletarCommand.cs" />
-    <Compile Include="ViewModel\PacienteViewModel.cs" />
     <Compile Include="Paciente.xaml.cs">
       <DependentUpon>Paciente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\Commands\DeletarCommand.cs" />
+    <Compile Include="ViewModel\Commands\NovoCommand.cs" />
+    <Compile Include="ViewModel\PacienteViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

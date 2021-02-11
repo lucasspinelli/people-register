@@ -14,3 +14,4 @@ C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\C
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.pdb
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Cadastro de Pessoas.csprojAssemblyReference.cache
 C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Paciente.g.cs
+C:\Users\Richard Hyppolito\Desktop\Projetos em C\Cadastro de Pessoas\obj\Debug\Paciente.baml

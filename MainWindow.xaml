@@ -12,7 +12,14 @@
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Height="42" VerticalAlignment="Bottom">
-            <Button Margin="3" Padding="3" BorderBrush="Black" Content="Novo" Width="83" FontFamily="Verdana">
+            <Button Margin="3" 
+                    Padding="3" 
+                    BorderBrush="Black" 
+                    Content="Novo" 
+                    Width="83" 
+                    FontFamily="Verdana"
+                    CommandParameter="{Binding}"
+                    Command="{Binding New}">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FFD3D4D3" Offset="0"/>

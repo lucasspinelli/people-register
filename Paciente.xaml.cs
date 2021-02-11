@@ -22,6 +22,13 @@ namespace Cadastro_de_Pessoas
         public Paciente()
         {
             InitializeComponent();
+            SexComboBox.ItemsSource = Enum.GetValues(typeof(Model.Sexo)).Cast<Model.Sexo>();
+            MartialComboBox.ItemsSource = Enum.GetValues(typeof(Model.EstadoCivil)).Cast<Model.EstadoCivil>();
+        }
+
+        private void OKButton_Click(object sender, RoutedEventArgs e) 
+        {
+            DialogResult = true; 
         }
     }
 }
