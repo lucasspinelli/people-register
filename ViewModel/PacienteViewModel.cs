@@ -22,7 +22,7 @@ namespace Cadastro_de_Pessoas.ViewModel
         {
             get 
             {
-
+                _selectedPacient = (_selectedPacient == null) ? Pacientes.FirstOrDefault() : _selectedPacient;
                 return _selectedPacient;
             }
             set 
@@ -36,7 +36,7 @@ namespace Cadastro_de_Pessoas.ViewModel
         public PacienteViewModel()
         {
             Pacientes = new ObservableCollection<Model.Paciente>();
-            SelectedPacient = Pacientes.FirstOrDefault(); // one of properties, to show the first register pacient or some default value
+            //SelectedPacient = Pacientes.FirstOrDefault(); // one of properties, to show the first register pacient or some default value
         }
 
     }
