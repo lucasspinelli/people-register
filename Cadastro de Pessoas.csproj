@@ -60,6 +60,7 @@
       <DependentUpon>Paciente.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\Commands\DeletarCommand.cs" />
+    <Compile Include="ViewModel\Commands\EditarCommand.cs" />
     <Compile Include="ViewModel\Commands\NovoCommand.cs" />
     <Compile Include="ViewModel\PacienteViewModel.cs" />
     <Page Include="MainWindow.xaml">
